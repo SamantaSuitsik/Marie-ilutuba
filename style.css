@@ -1,0 +1,53 @@
+body {
+    background-image: conic-gradient(violet, red, yellow, green, blue,purple, violet);
+  }
+
+h1 {
+    color: purple;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif  ;
+  }
+  
+p {
+    font-family: "Papyrus",Fantasy;
+    font-size: 15px;
+    text-align: center;
+    border-style: dotted;
+
+  }
+
+img {
+    border-style: solid;
+    border-width: 12px;
+    border-color: darkgreen;
+    border-radius: 8px;
+    width: 600px;
+    height: 200px;
+    background: red;
+    transition: transform 2s;
+}
+img:hover {
+    transform: rotate(360deg);
+  }
+
+table, tr, th {
+    border-style: groove;
+    border-width: 11px;
+    border-color: violet;
+
+}
+
+td {
+    border-style: solid;
+    border-width: 1px;
+    border-color: brown;
+
+}
+.column {
+    float: left;
+    width: 20%;
+}
+.column2 {
+    float: right;
+    width: 30%;
+}
